@@ -1,0 +1,7 @@
+.pytest_cache
+__pycache__
+logs
+airflow-webserver.pid
+airflow.cfg
+airflow.db
+.DS_Store
