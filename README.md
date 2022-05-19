@@ -3,10 +3,9 @@
 ## Usage
 
 1. Prepare your Python environment and database, in my case I'm using Python 3.9 and PostgreSQL.
-2. Rename `airflow.cfg.example` to `airflow.cfg` and replace `AIRFLOW_HOME` inside to the current path e.g.  `/Users/nakama/airflow`
-3. Adjust the `database.sql_alchemy_conn` accordingly.
-4. Execute `install.sh` to install the dependencies and set up few Airflow configurations.
-5. Execute `run.sh` to start the Airflow, you can then access it in `http://localhost:8080` at your browser and login using `admin:admin`.
+2. Adjust the `database.sql_alchemy_conn` inside `airflow.cfg.example` if needed.
+3. Execute `install.sh` to install the dependencies and set up few Airflow configurations.
+4. Execute `run.sh` to start the Airflow, you can then access it in `http://localhost:8080` at your browser and login using `admin:admin`.
 
 ## Unit Tests
 
